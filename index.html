@@ -3,8 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
+    <link rel="stylesheet" href="node_modules/jqueryui/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<form>
+    <div>
+        <label for="startDate">Start Date</label>
+        <input type="text" id="startDate" name="startDate" >
+    </div>
+    <div>
+        <label for="endDate">End Date</label>
+        <input type="text" id="endDate" name="endDate" >
+    </div>
+    <button type="submit">Add Vacation</button>
+</form>
 
+<ul>
+    <li>Vacation 1</li>
+    <li>Vacation 2</li>
+    <li>Vacation 3</li>
+    <li>Vacation 4</li>
+    <li>Vacation 5</li>
+    <li>Vacation 6</li>
+    <li>Vacation 7</li>
+    <li>Vacation 8</li>
+    <li>Vacation 9</li>
+    <li>Vacation 10</li>
+</ul>
+
+<div id="droppable"></div>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/jqueryui/jquery-ui.min.js"></script>
+<script src="node_modules/jquery-validation/dist/jquery.validate.js"></script>
+<script src="node_modules/jquery-validation/dist/additional-methods.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>

@@ -1,0 +1,37 @@
+body{
+  background-color: burlywood;
+
+  div{
+    margin: 15px;
+    color: #b81900;
+    label{
+      white-space: nowrap;
+      display: inline-block;
+      width: 70px;
+    }
+    input{
+      width: 200px;
+    }
+    button{
+      border-radius: 5px;
+      position: relative;
+      left: 30px;
+    }
+  }
+  li{
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    color: brown;
+    list-style-type: none;
+    border: 1px solid darkred;
+    float: left;
+  }
+  #droppable{
+    width: 320px;
+    height: 106px;
+    border: 3px dotted cornflowerblue;
+    float: left;
+    clear: left;
+  }
+}

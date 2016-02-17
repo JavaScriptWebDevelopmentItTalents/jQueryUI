@@ -1,0 +1,9 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "^2.2.0",
+    "jquery-validation": "^1.14.0",
+    "jqueryui": "^1.11.1"
+  }
+}
